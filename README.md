@@ -1,3 +1,20 @@
+## Adinton installation
+<p align="center">
+    To install with Adinton settings you have to rename .env-adinton file to .env and build: <br>
+	<ul>
+		<li>docker-compose build --no-cache nginx</li>
+		<li>docker-compose build --no-cache mongo</li>
+		<li>docker-compose build --no-cache redis</li>
+		<li>docker-compose build --no-cache workspace</li>
+	</ul>
+	<br>
+	Then run: docker-compose up -d nginx mongo redis workspace
+	<br>
+	To execute artisan commands you have to type: docker-compose exec workspace bash 
+	
+</p>
+
+
 <p align="center">
     <img src="/.github/home-page-images/laradock-logo.jpg?raw=true" alt="Laradock Logo"/>
 </p>
