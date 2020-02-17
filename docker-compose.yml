@@ -539,8 +539,8 @@ services:
       ports:
         - "${MONGODB_PORT}:27017"
       volumes:
-        - ${DATA_PATH_HOST}/mongo:/data/db
-        - ${DATA_PATH_HOST}/mongo_config:/data/configdb
+        - /Users/David/development/docker/laradock/data/mongo:/data/db
+        - /Users/David/development/docker/laradock/data/mongo_config:/data/configdb
       networks:
         - backend
 

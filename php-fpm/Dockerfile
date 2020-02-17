@@ -919,7 +919,7 @@ RUN if [ ${INSTALL_FAKETIME} = true ]; then \
 ARG LOCALE=POSIX
 ENV LC_ALL ${LOCALE}
 
-WORKDIR /var/www
+WORKDIR /var/www/html
 
 CMD ["php-fpm"]
 
