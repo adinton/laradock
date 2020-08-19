@@ -1,7 +1,6 @@
 ## Adinton installation
 <p align="center">
-	exec: 
-	sudo docker-compose up <br>
+	# sudo docker-compose up <br>
     To install with Adinton settings you have to rename .env-adinton file to .env and build: <br>
 	<ul>
 		<li>docker-compose build --no-cache nginx</li>
