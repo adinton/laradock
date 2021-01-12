@@ -564,7 +564,7 @@ services:
         - "${REDIS_PORT}:6379"
       networks:
         - backend
-      mem_limit: 500m
+      mem_limit: 3g
 
 ### Redis Cluster ##########################################
     redis-cluster:
